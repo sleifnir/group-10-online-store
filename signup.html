@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rai-Bams</title>
+    <!--FIGMA TO HTML-->
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <!--Bootstrap CDN-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+
+    <!--my custom CSS-->
+    <link href="/css/index.css" rel="stylesheet" />
+    <link href="/css/product.css" rel="stylesheet" />
+    <link href="/css/login.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!--HEADER START-->
+    <div class="header">
+      <div class="header-logo">
+        <div class="logo">
+          <a href="landing.html"><img src="/images/v1_83.png" alt="logo" /> </a> 
+        </div>
+      </div>
+      <div class="container-fluid">
+        <nav
+          class="
+            navbar
+            bg-warning
+            navbar-expand-lg navbar-light
+            justify-content-between
+          "
+        >
+          <form class="form-inline">
+            <input
+              class="form"
+              type="search"
+              placeholder="Procurar"
+              aria-label="Search"
+            />
+          </form>
+          <div class="login-btn">
+            <button type="button" class="btn btn-block">
+              Login / Cadastre-se
+            </button>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <!--HEADER END-->
+    <div class="login">
+        <div class="form-wrapper">
+            <form>
+                <div class="mb-3">
+                  <label for="exampleInputName" class="form-label">Nome</label>
+                  <input type="text" class="form-control" id="exampleInputName">
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputTelephone" class="form-label">Telefone</label>
+                  <input type="text" class="form-control" id="exampleInputTelephone">
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputAdress" class="form-label">Endereço</label>
+                  <input type="text" class="form-control" id="exampleInputAdress">
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">Email</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1">
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label">Senha</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+                <button type="submit" class="btn btn-primary">Entrar</button>
+              </form>
+        </div>
+
+    </div>
+    
+    <!--boostrap jquery and js-->
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

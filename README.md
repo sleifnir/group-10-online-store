@@ -3,7 +3,7 @@
 Project Milestone 1: Store Mockups 
 ==================================
 
-1.  Requisitos
+1.  **Requisitos**
 
         Para projetar as principais telas do sistema da loja online foi
 utilizado o site
@@ -14,7 +14,7 @@ Para implementar o HTML e CSS de pelo menos três telas, tivemos auxílio
 de um plugin chamado Figma to HTML, mas tivemos que fazer muitas
 alterações para chegar no que esperávamos.
 
-2.  Descrição do Projeto
+2.  **Descrição do Projeto**
 
 O produto escolhido para nossa loja online serão os óculos. Com isso,
 foi criada uma página principal para apresentar os principais produtos
@@ -94,11 +94,11 @@ Figura 6: Página de Listagem dos Produtos
 
 Figura 7: Página de Pagamento
 
-3.  Comentários sobre o Código
-4.  Plano de Teste
-5.  Resultado do Teste
-6.  Procedimento de Compilação
-7.  Problemas
-8.  Comentários
+3.  **Comentários sobre o Código**
+4.  **Plano de Teste**
+5.  **Resultado do Teste**
+6.  **Procedimento de Compilação**
+7.  **Problemas**
+8.  **Comentários**
 
 

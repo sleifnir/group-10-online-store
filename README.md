@@ -1,24 +1,6 @@
-UNIVERSIDADE DE SÃO PAULO![](images/image6.jpg)
 
-INSTITUTO DE CIÊNCIAS MATEMÁTICAS E DE COMPUTAÇÃO
 
-DEPARTAMENTO DE CIÊNCIAS DE COMPUTAÇÃO
-
-SCC0219 - Introduction to Web Development
-
-An Online Store
-
-Grupo 10:
-
-Igor Lovatto - n° USP: 10439099
-
-Leonardo Vinicius de Almeida - n° USP: 10392230
-
-Nathielle Pereira - n° USP: 10390252
-
-Stéfane Tame Monteiro Oliveira - n° USP: 10829970
-
-Project Milestone 1: Store Mockups {#h.84fbfy327mra .c12}
+Project Milestone 1: Store Mockups 
 ==================================
 
 1.  Requisitos

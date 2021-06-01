@@ -9,7 +9,7 @@ body {
 .header-logo {
     width: 100%;
     height: 244px;
-    background: url("/images/v1_84.png");
+    background: url("../images/v1_84.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;

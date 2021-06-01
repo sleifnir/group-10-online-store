@@ -14,7 +14,7 @@ Para implementar o HTML e CSS de pelo menos três telas, tivemos auxílio
 de um plugin chamado Figma to HTML, mas tivemos que fazer muitas
 alterações para chegar no que esperávamos.
 
-Para abrir as paginas mockups em html, por favor utilizem a extensão LiveServerr no editor de texto Visual Code
+**OLD:  Para abrir as paginas mockups em html, por favor utilizem a extensão LiveServerr no editor de texto Visual Code
 
 2.  **Descrição do Projeto**
 

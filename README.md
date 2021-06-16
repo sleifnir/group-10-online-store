@@ -1,16 +1,24 @@
 ﻿
+Grupo 10:
+
+Igor Lovatto - n° USP: 10439099
+
+Leonardo Vinicius de Almeida - n° USP: 10392230
+
+Nathielle Pereira - n° USP: 10390252
+
+Stéfane Tame Monteiro Oliveira - n° USP: 10829970
+
 
 Project Milestone 1: Store Mockups 
 ==================================
 
 1.  **Requisitos**
 
-        Para projetar as principais telas do sistema da loja online foi
-utilizado o site
-[https://www.figma.com](https://www.google.com/url?q=https://www.figma.com/&sa=D&source=editors&ust=1622588529324000&usg=AOvVaw0_sGHTH0xBkSHC4Sp0VXfy)[,
+    Para projetar as principais telas do sistema da loja online foi
+utilizado o site [https://www.figma.com](https://www.google.com/url?q=https://www.figma.com/&sa=D&source=editors&ust=1622588529324000&usg=AOvVaw0_sGHTH0xBkSHC4Sp0VXfy)
 onde pudemos fazer o layout com facilidade e idealizar o
-sit](https://www.google.com/url?q=https://www.figma.com/&sa=D&source=editors&ust=1622588529324000&usg=AOvVaw0_sGHTH0xBkSHC4Sp0VXfy)e.
-Para implementar o HTML e CSS de pelo menos três telas, tivemos auxílio
+site. Para implementar o HTML e CSS de pelo menos três telas, tivemos auxílio
 de um plugin chamado Figma to HTML, mas tivemos que fazer muitas
 alterações para chegar no que esperávamos.
 
@@ -18,7 +26,7 @@ alterações para chegar no que esperávamos.
 
 2.  **Descrição do Projeto**
 
-O produto escolhido para nossa loja online serão os óculos. Com isso,
+    O produto escolhido para nossa loja online serão os óculos. Com isso,
 foi criada uma página principal para apresentar os principais produtos
 para gerar o interesse do cliente em comprar. A partir dela, tem a opção
 de criar cadastros para os clientes, buscar produtos e ver todas as
@@ -43,7 +51,7 @@ sistema simulará que a foto do cliente esteja com o óculos escolhido.
         Segue abaixo o diagrama de navegação das páginas principais do
 site da loja online:
 
-![](images/image1.png)
+![alt text](images/diagrama_navegacao.jpg)
 
 Figura 1: Diagrama de navegação da loja online
 
@@ -76,23 +84,27 @@ Link do figma:
 
 https://www.figma.com/file/8u2Yh7larxHW23YDWWXqId/Trabalho-WEB?node-id=0%3A1
 
-Figura 2: Página Principal![](images/image8.png)
+![alt text](images/pagina_principal.png)
 
-![](images/image7.png)
+Figura 2: Página Principal
 
-Figura 3: Página de Login![](images/image3.png)
+![alt text](images/pagina_login.png)
+
+Figura 3: Página de Login
+
+![alt text](images/pagina_perfil_admin.png)
 
 Figura 4: Página do Administrador
 
-![](images/image5.png)
+![alt text](images/pagina_perfil_cliente.png)
 
 Figura 5: Página do Cliente
 
-![](images/image4.png)
+![alt text](images/pagina_produtos.png)
 
 Figura 6: Página de Listagem dos Produtos
 
-![](images/image2.png)
+![alt text](images/pagina_vendas.png)
 
 Figura 7: Página de Pagamento
 

@@ -1,0 +1,80 @@
+body {
+    font-size: 18px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.header{
+    max-width: unset;
+    padding: 0px;
+    width: 100%;
+    margin: 0px;
+}
+
+.header-logo{
+    background-color: white;
+    width: 100%;
+}
+
+.logo{
+    text-align: center;
+    padding: 8px;
+    padding-bottom: 2px;
+}
+
+.logo img {
+    width: 150px;
+}
+
+.barra-secundaria{
+    background-color: gold;
+    width: 100;
+    height: 30px;
+    margin: 10px;
+    padding: 15px 25px 15px 25px;
+    border-radius: 10px; 
+}
+
+.barra-pesquisa-form{
+    float: left;
+    width: 70%;
+    display: inline-flex;
+}
+
+.barra-pesquisa{
+    width: 95%;
+    height: 30px;
+    border-radius: 5px; 
+}
+ 
+.enviar{
+    padding: 4px;
+    font-size: 12px;
+    float: left;
+    width: 50px;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px; 
+    border-color: white;
+}
+
+.btn-login{
+    padding: 4px;
+    font-size: 12px;
+    background-color: white;
+    border-radius: 10px; 
+    border-color: white;
+}
+
+.btn-signup{
+    padding: 4px;
+    font-size: 12px;
+    background-color: white;
+    border-radius: 10px; 
+    border-color: white;
+}
+
+.login-signup{
+    display: flex;
+    float: right;
+}

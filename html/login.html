@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Rai-Bams</title>
+        <meta charset="utf-8">
+        <meta name="author" content="Grupo 10">
+
+        <link href="../css/header.css" rel="stylesheet"/>
+        <link href="../css/login_signup.css" rel="stylesheet"/>
+
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet"> 
+    </head>
+
+    <body>
+    	<!--HEADER START-->
+    	<div class="header">
+			<div class="header-logo">
+				<div class="logo">
+					<a href="principal.html"><img src="../images/logo.png" alt="logo" /></a> 
+				</div>
+			</div>
+
+			<div class="barra-secundaria">
+				<form class="barra-pesquisa-form">
+					<input type="search" name="pesquisa" placeholder="Procurar" class="barra-pesquisa"><br><br>
+					<input type="submit" name="enviar" value="OK" class="enviar">
+				</form>
+
+				<div class="login-signup">
+					<button type="button" onclick="document.location='login.html'" class="btn-login">
+					  Entrar
+					</button>
+					<button type="button" onclick="document.location='signup.html'" class="btn-signup">
+					  Cadastrar
+					</button>
+				</div>
+			</div>
+
+    	</div>
+    	<!--HEADER END-->
+        
+        <div class="login">
+			<div class="form">
+				<form>
+					<div class="email-div">
+						<label>Login</label><br>
+						<input type="email" class="email" required>
+					</div>
+					<br>
+					<div class="senha-div">
+						<label>Senha</label><br>
+						<input type="password" class="senha" required>
+					</div>
+					<br>
+					<button type="submit" class="btn-entrar">Entrar</button>
+				</form>
+			</div>
+		</div>
+    </body>
+</html>

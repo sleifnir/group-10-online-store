@@ -1,0 +1,37 @@
+.product-frame{
+    width: 602px;
+    height: 806px;
+    margin: 0 auto;
+    position: relative;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+
+  }
+  
+  .product-frame .img-frame{
+    max-width: 125px !important;
+    height: 146px;
+    max-height: 146px !important;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .product-img{
+    height: 146px;
+    transition: 0.5s;
+  }
+  
+  .product-frame:hover .img-frame img{
+    max-height: 80%;
+  }
+
+  .product-frame  .content h3{
+    font-size: 18px;
+    font-family: Roboto;
+    font-weight: normal;
+    justify-content: center;
+    align-items: center;
+  }

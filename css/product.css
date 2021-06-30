@@ -16,6 +16,9 @@ body {
   left: 0px;
   overflow: hidden;
   padding-bottom: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .side-menu {
@@ -60,20 +63,7 @@ body {
   margin-left: 20px;
 }
 
-#product-row-bottom {
-  width: 100%;
-  height: 295px;
-  background: url("v1_204.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  margin: 170px;
-  opacity: 1;
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  overflow: hidden;
-}
+
 
 a {
   text-decoration: none;
@@ -480,20 +470,6 @@ a:hover {
   overflow: hidden;
 }
 
-#product-row-top {
-  width: 100%;
-  height: 295px;
-  background: url("v1_217.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  margin: 170px;
-  opacity: 1;
-  position: absolute;
-  top: 316px;
-  left: 0px;
-  overflow: hidden;
-}
 
 .v1_218 {
   width: 312px;
@@ -657,20 +633,7 @@ a:hover {
   text-align: left;
 }
 
-#product-row-bottom {
-  width: 100%;
-  height: 295px;
-  background: url("v1_204.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  margin: 170px;
-  opacity: 1;
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  overflow: hidden;
-}
+
 
 a {
   text-decoration: none;
@@ -711,6 +674,34 @@ a:hover {
   overflow: hidden;
 }
 
+.product-frame{
+  width: 312px;
+  height: 256px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.product-frame .img-frame{
+  max-width: 125px !important;
+  height: 146px;
+  max-height: 146px !important;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-img{
+  width: 100%;
+  height: 146px;
+  transition: 0.5s;
+}
+
+.product-frame:hover .img-frame img{
+  max-width: 80%;
+  max-height: 80%;
+}
+
 .v1_206 {
   width: 125px;
   height: 146px;
@@ -728,13 +719,21 @@ a:hover {
 .v1_207 {
   width: 170px;
   color: rgba(0, 0, 0, 1);
-  position: absolute;
   top: 156px;
   left: 71px;
   font-family: Roboto;
   font-weight: Regular;
   font-size: 14px;
   opacity: 1;
+  text-align: left;
+}
+
+.product-name{
+  width: 170px;
+  color: rgba(0, 0, 0, 1);
+  font-family: Roboto;
+  font-weight: Regular;
+  font-size: 14px;
   text-align: left;
 }
 

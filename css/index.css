@@ -4,6 +4,7 @@
 
 body {
     font-size: 14px;
+    
 }
 
 .header-logo {
@@ -32,7 +33,14 @@ body {
 
 .logo img {
     width: 340px;
-    height: 168px
+    height: 168px;
+}
+
+.logo-clickable img{
+    max-width:250px;
+    max-height:30px;
+    width: auto;
+    height: auto;
 }
 
 .header .container-fluid {
@@ -48,10 +56,13 @@ body {
 }
 
 .navbar .login-btn {
-    margin-right: 30px;
     background-color: black;
     color: white;
     border-radius: 20px;
+}
+
+.nav-icons{
+    float: right;
 }
 
 
@@ -63,16 +74,15 @@ body {
     height: 600px;
 }
 
+.carousel-inner{
+    max-height: 600px !important;
+}
+
 .item img {
     position: absolute;
     top: 0;
     left: 0;
     min-height: 600px;
-}
-
-.product-area {
-    height: 881px;
-    width: 20%;
 }
 
 * {
@@ -88,9 +98,10 @@ body {
     height: 881px;
     background: rgba(255, 255, 255, 1);
     opacity: 1;
-    position: relative;
-    top: 0px;
+    top: 20px;
     left: 0px;
+
+    margin-top: 200px;
     overflow: hidden;
 }
 
@@ -154,10 +165,6 @@ body {
     text-align: center;
 }
 
-.coluna-cat,
-.row {
-    display: inline-block;
-}
 
 .v1_203 {
     width: 100%;
@@ -187,15 +194,12 @@ body {
     left: 0px;
     overflow: hidden;
   }
-
-  .product-frame {
-    width: 312px;
-    height: 256px;
-    opacity: 1;
-    top: 0px;
-    left: 0px;
-    right: 50px;
-    overflow: hidden;
-    display: inline-block;
+.navbar{
+    color: black;
+}
+.navbar-nav{
+    margin-right: 50px;
+}
+  #navbar-items-end{
+      margin-left: auto;
   }
-

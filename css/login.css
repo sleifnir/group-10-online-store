@@ -4,6 +4,7 @@
     background-repeat:no-repeat;
     background-size: 100%;
     padding: 60px;
+    display:flex;
 }
 
 .form-wrapper{

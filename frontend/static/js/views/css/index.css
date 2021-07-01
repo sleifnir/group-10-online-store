@@ -71,13 +71,13 @@ html, body {
     color: white;
 }
 
-.mid-section-wrapper{
+.mid-section-wrapperflex{
     min-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.carousel {
-    height: 600px;
-}
 
 .carousel-inner{
     max-height: 600px !important;
@@ -182,18 +182,18 @@ body {
     color:black;
     height: 300px;
     position: relative;
+    overflow: hidden;
 }
 
 .footer .footer-content{
     height: 250px;
-    display: flex; 
+    display: flex;
 }
 
 .footer .footer-content .footer-section{
     flex: 1;
     padding: 20px;
 }
-
 .footer .footer-content .footer-section p{
     padding: 20px;
     font-size: small;
@@ -217,58 +217,8 @@ body {
     padding-top: 20px;
 }
 
-.footer-section ul {
-    display: block;
-}
+.col-6{
+    padding: 0px;
+    margin: 10px 30px;
 
-.client {
-    margin: 40px;
-    padding: 40px;
-    display: flex;
-    border-style: solid;
-    border-color: gold;
-    border-radius: 20px;
-}
-
-.infos{
-    font-size: 20px;
-    align-items: center;
-    margin-right: 20%;
-}
-
-.titulo{
-    margin: 40px;
-    font-size: 30px;
-    padding: 30px;
-    margin-bottom: 0px;
-    padding-bottom: 0px;
-}
-
-.admin{
-    margin: 40px;
-    padding: 40px;
-    display: flex;
-    border-style: solid;
-    border-color: gold;
-    border-radius: 20px;
-    font-size: 16px;
-}
-
-.cadastro{
-    margin: 40px;
-    padding: 40px;
-    display: flex;
-    border-style: solid;
-    border-color: gold;
-    border-radius: 20px;
-    font-size: 16px;
-}
-
-.admin-cadastro{
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center
 }

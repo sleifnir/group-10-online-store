@@ -5,7 +5,6 @@ export default class extends AbstractView {
     super(params);
     this.setTitle("Settings");
   }
-  //TODO Modificar HTML AQUI
   async getHtml() {
     return `
     <!--HEADER START-->
@@ -13,7 +12,7 @@ export default class extends AbstractView {
       <div class="container-fluid">
         <nav class="navbar sticky-top bg-warning navbar-expand-lg navbar-light">
           <div class="logo-clickable nv-bar">
-            <a href="landing.html"><img src="../images/logo.png" alt="logo" /></a>
+            <a href= "/landing"><img src="static/images/logo.png" alt="logo" /></a>
             <button
               class="navbar-toggler"
               type="button"
@@ -32,7 +31,7 @@ export default class extends AbstractView {
               <li class="nav-item dropdown">
                 <a
                   class="nav-link dropdown-toggle"
-                  href="#"
+                  href= "/#"
                   id="navbarDropdown"
                   role="button"
                   data-toggle="dropdown"
@@ -42,14 +41,9 @@ export default class extends AbstractView {
                   Categorias
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="#">Oculos de Sol</a>
-                  <a class="dropdown-item" href="#">Oculos de Gral</a>
-                  <a class="dropdown-item" href="#">Oculos de Sol</a>
-                  <a class="dropdown-item" href="#">Oculos de Gral</a>
-                  <a class="dropdown-item" href="#">Oculos de Sol</a>
-                  <a class="dropdown-item" href="#">Oculos de Gral</a>
+                  <a class="dropdown-item" href= "/product-page">Oculos de Sol</a>
+                  <a class="dropdown-item" href= "/product-page">Oculos de Gral</a>
                   <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="#">Something else here</a>
                 </div>
               </li>
             </ul>
@@ -66,13 +60,13 @@ export default class extends AbstractView {
             </button>
             <ul class="navbar-nav mr-auto" id="navbar-items-end">
               <li class="nav-item">
-                <a class="nav-link" href="carrinho.html">Carrinho</a>
+                <a class="nav-link" href= "/carrinho">Carrinho</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="login.html">Entrar</a>
+                <a class="nav-link" href= "/login">Entrar</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="signup.html">Cadastro</a>
+                <a class="nav-link" href= "/signup">Cadastro</a>
               </li>
             </ul>
           </div>
@@ -95,7 +89,7 @@ export default class extends AbstractView {
           </div>
 
         <div id="foto">
-          <img src="../images/slide4.jpeg" alt="oculos">
+          <img src="static/images/slide4.jpeg" alt="oculos">
         </div>
       </div>
       <!--PERFIL END-->
@@ -111,66 +105,66 @@ export default class extends AbstractView {
             
             <div class="col product-frame">
               <div class="imgbox">
-                <img width="162" height="146" src="../images/oculos1.jpg" alt="productimg">
+                <img width="162" height="146" src="static/images/oculos1.jpg" alt="productimg">
               </div>
               <div class="contentbox">
                 <h3>Product Name</h3>
                 <h2 class="price">$69.99</h2>
-                <a href="#" class="buybtn">Comprar</a>
+                <a href= "/#" class="buybtn">Comprar</a>
               </div>
             </div>
             
             <div class="col product-frame">
               <div class="imgbox">
-                <img width="162" height="146" src="../images/oculos1.jpg" alt="productimg">
+                <img width="162" height="146" src="static/images/oculos1.jpg" alt="productimg">
               </div>
               <div class="contentbox">
                 <h3>Product Name</h3>
                 <h2 class="price">$69.99</h2>
-                <a href="#" class="buybtn">Comprar</a>
+                <a href= "/#" class="buybtn">Comprar</a>
               </div>
             </div>
             
             <div class="col product-frame">
               <div class="imgbox">
-                <img width="162" height="146" src="../images/oculos1.jpg" alt="productimg">
+                <img width="162" height="146" src="static/images/oculos1.jpg" alt="productimg">
               </div>
               <div class="contentbox">
                 <h3>Product Name</h3>
                 <h2 class="price">$69.99</h2>
-                <a href="#" class="buybtn">Comprar</a>
+                <a href= "/#" class="buybtn">Comprar</a>
               </div>
             </div>
           </div>
           <div class="row">
             <div class="col product-frame">
               <div class="imgbox">
-                <img width="162" height="146" src="../images/oculos1.jpg" alt="productimg">
+                <img width="162" height="146" src="static/images/oculos1.jpg" alt="productimg">
               </div>
               <div class="contentbox">
                 <h3>Product Name</h3>
                 <h2 class="price">$69.99</h2>
-                <a href="#" class="buybtn">Comprar</a>
+                <a href= "/#" class="buybtn">Comprar</a>
               </div>
             </div>
             <div class="col product-frame">
               <div class="imgbox">
-                <img width="162" height="146" src="../images/oculos1.jpg" alt="productimg">
+                <img width="162" height="146" src="static/images/oculos1.jpg" alt="productimg">
               </div>
               <div class="contentbox">
                 <h3>Product Name</h3>
                 <h2 class="price">$69.99</h2>
-                <a href="#" class="buybtn">Comprar</a>
+                <a href= "/#" class="buybtn">Comprar</a>
               </div>
             </div>
             <div class="col product-frame">
               <div class="imgbox">
-                <img width="162" height="146" src="../images/oculos1.jpg" alt="productimg">
+                <img width="162" height="146" src="static/images/oculos1.jpg" alt="productimg">
               </div>
               <div class="contentbox">
                 <h3>Product Name</h3>
                 <h2 class="price">$69.99</h2>
-                <a href="#" class="buybtn">Comprar</a>
+                <a href= "/#" class="buybtn">Comprar</a>
               </div>
             </div>
           </div>
@@ -185,8 +179,8 @@ export default class extends AbstractView {
         <div class="footer-section about">
           <h1 class="logo">
             <div class="logo-clickable nv-bar">
-              <a href="landing.html"
-                ><img src="../images/logo.png" alt="logo"
+              <a href= "/landing"
+                ><img src="static/images/logo.png" alt="logo"
               /></a>
               <button
                 class="navbar-toggler"
@@ -216,34 +210,17 @@ export default class extends AbstractView {
         <div class="footer-section links">
           <h2>Alguns links</h2><br>
           <ul>
-            <a href="#"><li>Link</li></a>
-            <a href="#"><li>Link</li></a>
-            <a href="#"><li>Link</li></a>
-            <a href="#"><li>Link</li></a>
-            <a href="#"><li>Link</li></a>
+            <a href= "/#"><li>Link</li></a>
+            <a href= "/#"><li>Link</li></a>
+            <a href= "/#"><li>Link</li></a>
+            <a href= "/#"><li>Link</li></a>
+            <a href= "/#"><li>Link</li></a>
           </ul>
         </div>
       </div>
       <div class="footer-bottom">&copy; rayboms.com | Designed by Group 10</div>
     </div>
     <!--//FOOTER-->
-
-    <!--boostrap jquery and js-->
-    <script
-      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-      crossorigin="anonymous"
-    ></script>
         `;
   }
 }

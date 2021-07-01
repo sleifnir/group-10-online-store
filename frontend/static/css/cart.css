@@ -1,0 +1,26 @@
+.cart-wrapper{
+    width: 1300px;
+    height: 800px;
+    padding: 25px;  
+    background-color: white;
+}
+.cart-product-area{
+    width: 1000px;
+    height: 600px;
+    padding: 25px;
+    background-color: beige(38, 0, 255);
+    display: flex;
+    justify-content: start;
+}
+
+#cartbtn{
+    position: relative;
+    opacity: 1;
+    padding: 10px 30px;
+    color: white;
+    z-index: 0;
+    border-radius: 30px;
+    background-color: black;
+    margin: 40px 80px;
+    float: right;
+}

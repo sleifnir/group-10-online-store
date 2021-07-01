@@ -8,11 +8,12 @@ export default class extends AbstractView {
   async getHtml() {
     return `
     <!--HEADER START-->
+    <link href="static/css/cart.css" rel="stylesheet"/>
     <div class="header">
       <div class="container-fluid">
         <nav class="navbar sticky-top bg-warning navbar-expand-lg navbar-light">
           <div class="logo-clickable nv-bar">
-            <a href= "/landing"><img src="static/images/logo.png" alt="logo" /></a>
+            <a href="landing.html"><img src="static/images/logo.png" alt="logo" /></a>
             <button
               class="navbar-toggler"
               type="button"
@@ -31,7 +32,7 @@ export default class extends AbstractView {
               <li class="nav-item dropdown">
                 <a
                   class="nav-link dropdown-toggle"
-                  href= "/#"
+                  href="#"
                   id="navbarDropdown"
                   role="button"
                   data-toggle="dropdown"
@@ -41,8 +42,8 @@ export default class extends AbstractView {
                   Categorias
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href= "/product-page">Oculos de Sol</a>
-                  <a class="dropdown-item" href= "/product-page">Oculos de Gral</a>
+                  <a class="dropdown-item" href="product-page.html">Oculos de Sol</a>
+                  <a class="dropdown-item" href="product-page.html">Oculos de Gral</a>
                   <div class="dropdown-divider"></div>
                 </div>
               </li>
@@ -60,13 +61,13 @@ export default class extends AbstractView {
             </button>
             <ul class="navbar-nav mr-auto" id="navbar-items-end">
               <li class="nav-item">
-                <a class="nav-link" href= "/carrinho">Carrinho</a>
+                <a class="nav-link" href="carrinho.html">Carrinho</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href= "/login">Entrar</a>
+                <a class="nav-link" href="login.html">Entrar</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href= "/signup">Cadastro</a>
+                <a class="nav-link" href="signup.html">Cadastro</a>
               </li>
             </ul>
           </div>
@@ -74,103 +75,27 @@ export default class extends AbstractView {
       </div>
     </div>
     <!--HEADER END-->
-    <div class="mid-section-wrapper">
-
-      <!--PERFIL-START-->
-      <div class="client">
-        <div class="infos">
-          <dl>
-            <dt>Cliente: <span class="nome">Regina Phalange</span></dt><br>
-            <dt>ID: <span class="id">123</span></dt><br>
-            <dt>Endereço: <span class="endereco">Rua A, 12</span></dt><br>
-            <dt>Telefone: <span class="telefone">31 1231 1231</span></dt><br>
-            <dt>E-mail: <span class="email"></span>regina@gmail.com</dt><br>
-            </dl>
-          </div>
-
-        <div id="foto">
-          <img src="static/images/slide4.jpeg" alt="oculos">
-        </div>
-      </div>
-      <!--PERFIL END-->
-      <div class="titulo">
-            Carrinho:
-        </div>
+    <div class="mid-section-wrapperflex">
       <!--PRODUCT SHOWCASE START-->
-      <div class="container product-block">
-        <!--product list-->
-        
-        <div class="container product-area">
-          <div class="row">
+        <!--product list-->      
+        <div class="cart-wrapper">
+          <h1>CARRINHO:</h1>
+          <div class="container cart-product-area">
+            <div class="row">
+              <div class="product-frame">
+                <div class="imgbox-inanimate">
+                  <img width="200"  src="static/images/oculosnobg.png" alt="productimg">
+                </div>
+                <div class="contentbox">
+                  <h3>Product Name</h3>
+                  <h2 class="price">$69.99</h2>
+                </div>
+              </div>
+            </div> 
             
-            <div class="col product-frame">
-              <div class="imgbox">
-                <img width="162" height="146" src="static/images/oculos1.jpg" alt="productimg">
-              </div>
-              <div class="contentbox">
-                <h3>Product Name</h3>
-                <h2 class="price">$69.99</h2>
-                <a href= "/#" class="buybtn">Comprar</a>
-              </div>
-            </div>
-            
-            <div class="col product-frame">
-              <div class="imgbox">
-                <img width="162" height="146" src="static/images/oculos1.jpg" alt="productimg">
-              </div>
-              <div class="contentbox">
-                <h3>Product Name</h3>
-                <h2 class="price">$69.99</h2>
-                <a href= "/#" class="buybtn">Comprar</a>
-              </div>
-            </div>
-            
-            <div class="col product-frame">
-              <div class="imgbox">
-                <img width="162" height="146" src="static/images/oculos1.jpg" alt="productimg">
-              </div>
-              <div class="contentbox">
-                <h3>Product Name</h3>
-                <h2 class="price">$69.99</h2>
-                <a href= "/#" class="buybtn">Comprar</a>
-              </div>
-            </div>
           </div>
-          <div class="row">
-            <div class="col product-frame">
-              <div class="imgbox">
-                <img width="162" height="146" src="static/images/oculos1.jpg" alt="productimg">
-              </div>
-              <div class="contentbox">
-                <h3>Product Name</h3>
-                <h2 class="price">$69.99</h2>
-                <a href= "/#" class="buybtn">Comprar</a>
-              </div>
-            </div>
-            <div class="col product-frame">
-              <div class="imgbox">
-                <img width="162" height="146" src="static/images/oculos1.jpg" alt="productimg">
-              </div>
-              <div class="contentbox">
-                <h3>Product Name</h3>
-                <h2 class="price">$69.99</h2>
-                <a href= "/#" class="buybtn">Comprar</a>
-              </div>
-            </div>
-            <div class="col product-frame">
-              <div class="imgbox">
-                <img width="162" height="146" src="static/images/oculos1.jpg" alt="productimg">
-              </div>
-              <div class="contentbox">
-                <h3>Product Name</h3>
-                <h2 class="price">$69.99</h2>
-                <a href= "/#" class="buybtn">Comprar</a>
-              </div>
-            </div>
-          </div>
-         
+          <a href="/venda" class="buybtn-inanimate" id="cartbtn">Comprar</a>
         </div>
-      </div>
       <!--PRODUCT SHOWCASE END-->
     </div>
     <!--FOOTER-->
@@ -179,7 +104,7 @@ export default class extends AbstractView {
         <div class="footer-section about">
           <h1 class="logo">
             <div class="logo-clickable nv-bar">
-              <a href= "/landing"
+              <a href="landing.html"
                 ><img src="static/images/logo.png" alt="logo"
               /></a>
               <button
@@ -210,16 +135,17 @@ export default class extends AbstractView {
         <div class="footer-section links">
           <h2>Alguns links</h2><br>
           <ul>
-            <a href= "/#"><li>Link</li></a>
-            <a href= "/#"><li>Link</li></a>
-            <a href= "/#"><li>Link</li></a>
-            <a href= "/#"><li>Link</li></a>
-            <a href= "/#"><li>Link</li></a>
+            <a href="#"><li>Link</li></a>
+            <a href="#"><li>Link</li></a>
+            <a href="#"><li>Link</li></a>
+            <a href="#"><li>Link</li></a>
+            <a href="#"><li>Link</li></a>
           </ul>
         </div>
       </div>
       <div class="footer-bottom">&copy; rayboms.com | Designed by Group 10</div>
     </div>
+    <!--//FOOTER-->
     <!--//FOOTER-->
         `;
   }

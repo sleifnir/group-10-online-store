@@ -102,150 +102,61 @@
       </div>
     </div>
     <!--HEADER END-->
-    <div class="mid-section-wrapper">
+    <div class="admin-cadastro">
 
-      <!--PERFIL-START-->
-      <div class="client">
-        <div class="infos">
+      <div class="admin">
           <dl>
-            <dt>Cliente: <span class="nome">Regina Phalange</span></dt><br>
-            <dt>ID: <span class="id">123</span></dt><br>
+            <dt>Admin: <span class="nome">Phoebe</span></dt><br>
+            <dt>ID: <span class="id">0</span></dt><br>
             <dt>Endereço: <span class="endereco">Rua A, 12</span></dt><br>
             <dt>Telefone: <span class="telefone">31 1231 1231</span></dt><br>
-            <dt>E-mail: <span class="email"></span>regina@gmail.com</dt><br>
+            <dt>E-mail: <span class="email"></span>phoebe@gmail.com</dt><br>
             </dl>
-          </div>
-
-        <div id="foto">
-          <img src="../images/slide4.jpeg" alt="oculos">
-        </div>
       </div>
-      <!--PERFIL END-->
-      <div class="titulo">
-            Carrinho:
-        </div>
-      <!--PRODUCT SHOWCASE START-->
-      <div class="container product-block">
-        <!--product list-->
-        
-        <div class="container product-area">
-          <div class="row">
-            
-            <div class="col product-frame">
-              <div class="imgbox">
-                <img width="162" height="146" src="../images/oculos1.jpg" alt="productimg">
-              </div>
-              <div class="contentbox">
-                <h3>Product Name</h3>
-                <h2 class="price">$69.99</h2>
-                <a href="#" class="buybtn">Comprar</a>
-              </div>
-            </div>
-            
-            <div class="col product-frame">
-              <div class="imgbox">
-                <img width="162" height="146" src="../images/oculos1.jpg" alt="productimg">
-              </div>
-              <div class="contentbox">
-                <h3>Product Name</h3>
-                <h2 class="price">$69.99</h2>
-                <a href="#" class="buybtn">Comprar</a>
-              </div>
-            </div>
-            
-            <div class="col product-frame">
-              <div class="imgbox">
-                <img width="162" height="146" src="../images/oculos1.jpg" alt="productimg">
-              </div>
-              <div class="contentbox">
-                <h3>Product Name</h3>
-                <h2 class="price">$69.99</h2>
-                <a href="#" class="buybtn">Comprar</a>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col product-frame">
-              <div class="imgbox">
-                <img width="162" height="146" src="../images/oculos1.jpg" alt="productimg">
-              </div>
-              <div class="contentbox">
-                <h3>Product Name</h3>
-                <h2 class="price">$69.99</h2>
-                <a href="#" class="buybtn">Comprar</a>
-              </div>
-            </div>
-            <div class="col product-frame">
-              <div class="imgbox">
-                <img width="162" height="146" src="../images/oculos1.jpg" alt="productimg">
-              </div>
-              <div class="contentbox">
-                <h3>Product Name</h3>
-                <h2 class="price">$69.99</h2>
-                <a href="#" class="buybtn">Comprar</a>
-              </div>
-            </div>
-            <div class="col product-frame">
-              <div class="imgbox">
-                <img width="162" height="146" src="../images/oculos1.jpg" alt="productimg">
-              </div>
-              <div class="contentbox">
-                <h3>Product Name</h3>
-                <h2 class="price">$69.99</h2>
-                <a href="#" class="buybtn">Comprar</a>
-              </div>
-            </div>
-          </div>
-         
-        </div>
-      </div>
-      <!--PRODUCT SHOWCASE END-->
-    
-    <div class="titulo">Preço total a pagar: <span class="preco_total">599,00</span></div>
-
-    <div class="admin-cadastro">
-    <div class="cadastro">
+      <div class="cadastro">
         <div class="form">
         <form>
-          <div class="cartao">
-            <label>N° cartão:</label><br>
-            <input type="number" id="cartao" required>
+          <div class="titulo1">
+            <label>Título:</label><br>
+            <input type="text" id="titulo" required>
           </div>
           <br>
-          <div class="vencimento">
-            <label>Vencimento:</label><br>
-            <input type="date" id="data" min="2000-01-01" required>
+          <div class="preco">
+            <label>Preço:</label><br>
+            <input type="text" id="preco" required>
           </div>
           <br>
-                  <div class="codigo">
-            <label>Código:</label><br>
-            <input type="number" id="codigo" required>
+                  <div class="quantidade">
+            <label>Imagem:</label><br>
+            <input type="file" id="imagem"><br>
           </div>
           <br>
-          <div class="parcelas">
-            <label>Parcelas:</label><br>
-            <select id="parcelas">
-              <option id="1x">1x</option>
-              <option id="2x">2x</option>
-              <option id="3x">3x</option>
-              <option id="4x">4x</option>
+          <div class="quantidade">
+            <label>Quantidade:</label><br>
+            <input type="number" id="quantidade" required>
+          </div>
+          <br>
+          <div class="tipos">
+            <label>Tipo:</label><br>
+            <select id="tipos">
+              <option id="aviador">Aviador</option>
+              <option id="redondo">Redondo</option>
+              <option id="quadrado">Quadrado</option>
+              <option id="oval">Oval</option>
+              <option id="topbar">Top Bar</option>
+              <option id="browline">Browline</option>
                     </select>
-          </div>
-          <br>
-          <div class="cpf">
-            <label>CPF:</label><br>
-            <input type="number" id="cpf" required>
           </div>
           <br>
 
           <button type="submit" onclick="document.location='#'" class="btn btn-primary">
-            Comprar
+            Cadastrar
           </button>
         </form>
       </div>
       </div>
+      <!--PRODUCT SHOWCASE END-->
     </div>
-  </div>
     <!--FOOTER-->
     <div class="footer">
       <div class="footer-content">

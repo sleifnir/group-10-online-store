@@ -5,7 +5,7 @@ export default class extends AbstractView {
     super(params);
     this.setTitle("Signup");
   }
-
+  //TODO Modificar HTML AQUI
   async getHtml() {
     return `
         <!--HEADER START-->

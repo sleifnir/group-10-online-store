@@ -1,3 +1,4 @@
+//Importação das páginas(views)
 import Landing from "./views/Landing.js";
 import Login from "./views/Login.js";
 import Admin from "./views/Admin.js";
@@ -5,9 +6,11 @@ import Carrinho from "./views/Carrinho.js";
 import ProductPage from "./views/ProductPage.js";
 import Signup from "./views/Signup.js";
 import Venda from "./views/Venda.js";
+
 const pathToRegex = (path) =>
   new RegExp("^" + path.replace(/\//g, "\\/").replace(/:\w+/g, "(.+)") + "$");
 
+//Verifica se as rotas estão de acordo com a view correta
 const getParams = (match) => {
   const values = match.result.slice(1);
   const keys = Array.from(match.route.path.matchAll(/:(\w+)/g)).map(
@@ -20,12 +23,12 @@ const getParams = (match) => {
     })
   );
 };
-
+//Navegador da aplicação
 const navigateTo = (url) => {
   history.pushState(null, null, url);
   router();
 };
-
+//Definição das rotas
 const router = async () => {
   const routes = [
     { path: "/", view: Landing },
@@ -63,6 +66,7 @@ const router = async () => {
 
 window.addEventListener("popstate", router);
 
+//Evento de click para navegar pelas rotas
 document.addEventListener("DOMContentLoaded", () => {
   document.body.addEventListener("click", (e) => {
     if (e.target.matches("[data-link]")) {
